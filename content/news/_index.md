@@ -13,5 +13,4 @@ toc: false
 layout: other
 ---
 
-
-Lorem ipsum
+All relevant information to keep you informed of news features released, topics we're working on, contributions we got from the ecosystem, etc.

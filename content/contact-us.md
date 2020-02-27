@@ -1,7 +1,7 @@
 ---
 title: "Contact us"
 date: 2019-12-09T17:52:40+01:00
-description: "Where we came from, where we going, and what we believe in"
+description: "***Get in touch with us***"
 publishdate: 2019-12-09T17:52:40+01:00
 lastmod: 2019-12-09T17:52:40+01:00
 categories: []
@@ -13,5 +13,6 @@ toc: false
 layout: other
 ---
 
+The best way to contact us is by creating issues in our [public GitHub.com repository](https://github.com/societe-generale/cloud-innovation-platform).
 
-
+We plan to use other communication channels soon such as chatrooms but those tools are currently inaccessible from our corporate workstations.

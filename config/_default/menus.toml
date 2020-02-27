@@ -12,14 +12,14 @@
   name = "Products"
   title = "Products"
   url = "/products/"
-  weight = -120
+  weight = -110
 
 [[global]]
   identifier = "solutions"
   name = "Solutions"
   title = "Solutions"
   url = "/solutions/"
-  weight = -110
+  weight = -120
 
 [[global]]
   identifier = "news"
@@ -72,7 +72,7 @@
 
 [[docs]]
   name = "Products"
-  weight = 50
+  weight = 60
   identifier = "prd"
   post = "break"
   url = "/products/"
@@ -93,7 +93,7 @@
 
 [[docs]]
   name = "Solutions"
-  weight = 60
+  weight = 50
   identifier = "so"
   post = "break"
   url = "/solutions/"
@@ -111,6 +111,31 @@
   weight = 30
   identifier = "so-da"
 ######################### End Solution under menu #############################
+
+[[docs]]
+  name = "Featured Partners"
+  weight = 70
+  identifier = "prtn"
+  post = "break"
+  url = "/partners/"
+
+######################### Begin Featured Partners under menu #############################
+[[docs]]
+
+  name = "Name 1"
+  parent="prtn"
+  weight = 20
+  identifier = "prtn-name1"
+
+######################### End Featured Partners under menu #############################
+
+
+[[docs]]
+  name = "News"
+  weight = 90
+  post = "break"
+  identifier = "news"
+  url = "/news/"
 
 [[docs]]
   name = "Contribute"
