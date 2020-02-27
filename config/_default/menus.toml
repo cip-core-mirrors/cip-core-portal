@@ -1,0 +1,120 @@
+## navbar menu
+
+[[global]]
+  identifier = "docs"
+  name = "Docs"
+  title = "Docs"
+  url = "/documentation/"
+  weight = -100
+
+[[global]]
+  identifier = "products"
+  name = "Products"
+  title = "Products"
+  url = "/products/"
+  weight = -120
+
+[[global]]
+  identifier = "solutions"
+  name = "Solutions"
+  title = "Solutions"
+  url = "/solutions/"
+  weight = -110
+
+[[global]]
+  identifier = "news"
+  name = "News"
+  title = "News"
+  url = "/news/"
+  weight = -90
+
+[[global]]
+  identifier = "contact-us"
+  name = "Contact Us"
+  title = "Contact Us"
+  url = "/contact-us/"
+  weight = -70
+
+[[global]]
+  identifier = "github"
+  name = "GitHub"
+  title = "GitHub"
+  post = "external"
+  url = "https://github.com/societe-generale/cloud-innovation-platform/"
+  weight = -60
+ 
+
+## doc menu
+[[docs]]
+  name = "About CIP"
+  weight = 10
+  identifier = "about"
+  url = "/about/"
+
+[[docs]]
+  name = "Terms & Conditions"
+  weight = 20
+  identifier = "tos"
+  url = "/tos/"
+
+[[docs]]
+  name = "Frequently Asked Questions"
+  weight = 30
+  identifier = "faq"
+  url = "/faq/"
+
+[[docs]]
+  name = "Getting Started"
+  weight = 40
+  identifier = "getting-started"
+  post = "break"
+  url = "/getting-started/"
+
+[[docs]]
+  name = "Products"
+  weight = 50
+  identifier = "prd"
+  post = "break"
+  url = "/products/"
+
+######################### Product under menu #############################
+[[docs]]
+  name = "App boxes"
+  parent="prd"
+  weight = 20
+  identifier = "prd-ab"
+
+[[docs]]
+  name = "Tool boxes"
+  parent="prd"
+  weight = 30
+  identifier = "prd-tb"
+  ######################### End product under menu #############################
+
+[[docs]]
+  name = "Solutions"
+  weight = 60
+  identifier = "so"
+  post = "break"
+  url = "/solutions/"
+
+######################### Solution under menu #############################
+[[docs]]
+  name = "Co Working"
+  parent="so"
+  weight = 20
+  identifier = "so-cw"
+
+[[docs]]
+  name = "Data Analysis"
+  parent="so"
+  weight = 30
+  identifier = "so-da"
+######################### End Solution under menu #############################
+
+[[docs]]
+  name = "Contribute"
+  weight = 100
+  post = "break"
+  identifier = "contribute"
+  url = "/contribute/"
