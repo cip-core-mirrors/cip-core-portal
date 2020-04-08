@@ -1,29 +1,35 @@
-metadata:
-    name: cip-portal
-projects:
-  - name: cip-core-portal
-      source:
-      location: 'https://github.com/cip-core-mirrors/cip-core-portal'
-      type: git
-  attributes:
-  persistVolumes: 'false'
-  components:
-  - mountSources: true
-      endpoints:
-      - name: 1313/tcp
-          port: 1313
-      memoryLimit: 512Mi
-      type: dockerimage
-      alias: hugo-cli
-      image: 'serram/che-hugo-golang:0.64'
-  - id: budparr/language-hugo-vscode/latest
-      memoryLimit: 512Mi
-      type: chePlugin
-apiVersion: 1.0.0
-commands:
-  - name: run hugo server
-    actions:
-      - workdir: '${CHE_PROJECTS_ROOT}/cip-core-portal'
-        type: exec
-        command: hugo server --disableFastRender --bind 0.0.0.0 --liveReloadPort 443
+apiVersion: "1.0.0"
+attributes: 
+  persistVolumes: "false"
+commands: 
+  - 
+    actions: 
+      - 
+        command: "hugo server --disableFastRender --bind 0.0.0.0 --liveReloadPort 443"
         component: hugo-cli
+        type: exec
+        workdir: "${CHE_PROJECTS_ROOT}/cip-core-portal"
+    name: "run hugo server"
+components: 
+  - 
+    alias: hugo-cli
+    endpoints: 
+      - 
+        name: 1313/tcp
+        port: 1313
+    image: "serram/che-hugo-golang:0.64"
+    memoryLimit: 512Mi
+    mountSources: true
+    type: dockerimage
+  - 
+    id: budparr/language-hugo-vscode/latest
+    memoryLimit: 512Mi
+    type: chePlugin
+metadata: 
+  name: cip-portal
+projects: 
+  - 
+    name: cip-core-portal
+    source: 
+      location: "https://github.com/cip-core-mirrors/cip-core-portal"
+      type: git
