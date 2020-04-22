@@ -1,9 +1,10 @@
-# [en]
-#     contentDir = "content/en"
-#     languageName = "English"
-#     weight = 3
+[en]
+    contentDir = "content/en"
+    languageName = "English"
+    weight = 3
+    
   
-# [fr]
-#     contentDir = "content/fr"
-#     languageName = "Français"
-#     weight = 2
+[fr]
+    contentDir = "content/fr"
+    languageName = "Français"
+    weight = 2

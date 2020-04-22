@@ -1,6 +1,8 @@
 baseURL = "http://example.org/"
-languageCode = "en-us"
+languageCode = "en"
 title = "Cloud Innovation Platform"
+defaultContentLanguage= "en"
+defaultContentLanguageInSubdir= true
 [taxonomies]
   category = "categories"
 

@@ -1,48 +1,46 @@
 ## navbar menu
+[[global]]
+identifier = "docs"
+name = "Docs"
+title = "Docs"
+url = "/documentation/"
+weight = -100
 
 [[global]]
-  identifier = "docs"
-  name = "Docs"
-  title = "Docs"
-  url = "/documentation/"
-  weight = -100
+identifier = "products"
+name = "Products"
+title = "Products"
+url = "/products/"
+weight = -110
 
 [[global]]
-  identifier = "products"
-  name = "Products"
-  title = "Products"
-  url = "/products/"
-  weight = -110
+identifier = "solutions"
+name = "Solutions"
+title = "Solutions"
+url = "/solutions/"
+weight = -120
 
 [[global]]
-  identifier = "solutions"
-  name = "Solutions"
-  title = "Solutions"
-  url = "/solutions/"
-  weight = -120
+identifier = "news"
+name = "News"
+title = "News"
+url = "/news/"
+weight = -90
 
 [[global]]
-  identifier = "news"
-  name = "News"
-  title = "News"
-  url = "/news/"
-  weight = -90
+identifier = "contact-us"
+name = "Contact Us"
+title = "Contact Us"
+url = "/contact-us/"
+weight = -70
 
 [[global]]
-  identifier = "contact-us"
-  name = "Contact Us"
-  title = "Contact Us"
-  url = "/contact-us/"
-  weight = -70
-
-[[global]]
-  identifier = "github"
-  name = "GitHub"
-  title = "GitHub"
-  post = "external"
-  url = "https://github.com/societe-generale/cloud-innovation-platform/"
-  weight = -60
- 
+identifier = "github"
+name = "GitHub"
+title = "GitHub"
+post = "external"
+url = "https://github.com/societe-generale/cloud-innovation-platform/"
+weight = -60
 
 ## doc menu
 [[docs]]

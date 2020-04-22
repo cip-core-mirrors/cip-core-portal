@@ -1,0 +1,43 @@
+[[global]]
+  identifier = "docs"
+  name = "Documentation"
+  title = "Documentation"
+  url = "/documentation/"
+  weight = -100
+
+[[global]]
+  identifier = "products"
+  name = "Produits"
+  title = "Produits"
+  url = "/products/"
+  weight = -110
+
+[[global]]
+  identifier = "solutions"
+  name = "Solutions"
+  title = "Solutions"
+  url = "/solutions/"
+  weight = -120
+
+[[global]]
+  identifier = "news"
+  name = "Actualités"
+  title = "Actualités"
+  url = "/news/"
+  weight = -90
+
+[[global]]
+  identifier = "contact-us"
+  name = "Nous contacter"
+  title = "Nous contacter"
+  url = "/contact-us/"
+  weight = -70
+
+[[global]]
+  identifier = "github"
+  name = "GitHub"
+  title = "GitHub"
+  post = "external"
+  url = "https://github.com/societe-generale/cloud-innovation-platform/"
+  weight = -60
+ 
