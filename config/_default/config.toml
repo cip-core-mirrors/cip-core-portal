@@ -5,8 +5,3 @@ defaultContentLanguage= "en"
 defaultContentLanguageInSubdir= true
 [taxonomies]
   category = "categories"
-
-[module]
-  [[module.imports]]
-    disable= false 
-    path = "github.com/cip-core-mirrors/cip-core-portal-theme"

@@ -1,0 +1,26 @@
+version: '3.7'
+services: 
+    gatekeeper:
+        image: keycloak/keycloak-gatekeeper
+        environment: 
+            GATEKEEPER_UPSTREAM_URL: http://core-portal:8080
+            GATEKEEPER_REDIRECTION_URL: http://localhost:8080
+        env_file: .env
+        ports: 
+            - '8080:8080'
+        volumes: 
+            - ./gatekeeper-conf-dev.yaml:/opt/conf/gatekeeper-conf.yaml
+            - ./entrypoint.sh:/opt/bin/entrypoint.sh
+        entrypoint: ["/opt/bin/entrypoint.sh"]
+        command: /opt/keycloak-gatekeeper --config /opt/conf/conf.yaml
+    core-portal:
+        working_dir: /opt/app-root/cip-core-portal
+        expose: 
+            - 8080
+        volumes: 
+            - #pathtothemefolder:/opt/app-root/cip-core-portal/themes/cip-core-portal-theme
+            - .:/opt/app-root/cip-core-portal
+        image: serram/s2i-hugo-golang
+        entrypoint: ['hugo']
+        command: ['server', '--disableFastRender', '--bind', '0.0.0.0', '--port', '8080', '--environment', 'theme-debug']
+     

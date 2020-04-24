@@ -1,0 +1,22 @@
+client-id: ${clientId}
+client-secret: ${clientSecret}
+discovery-url: ${realmUrl}
+encryption-key: ${encryptionKey}
+enable-encrypted-token: true
+listen: :8080
+secure-cookie: false
+enable-refresh-tokens: true
+enable-default-deny: false
+upstream-url: ${upstreamUrl}
+redirection-url: ${redirectionUrl}
+enable-session-cookies: false
+resources:
+- uri: /solutions*
+- uri: /products*
+- uri: /documentation*
+- uri: /en/solutions*
+- uri: /en/products*
+- uri: /en/documentation*
+- uri: /fr/solutions*
+- uri: /fr/products*
+- uri: /fr/documentation*
