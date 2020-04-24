@@ -1,7 +1,5 @@
 #!/bin/sh
 
-cd /opt/conf 
-
 
 sed -e "s#\${clientId}#${OPENID_CLIENT_ID}#" -e \
         "s#\${clientSecret}#${OPENID_CLIENT_SECRET}#" -e \
