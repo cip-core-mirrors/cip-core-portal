@@ -9,8 +9,8 @@ fi;
 while read -r line ; do
     echo "Processing $line"
 
-    sed -ri 's/\{\{--BOTPRESS_URL--\}\}/'$BOTPRESS_URL'/' $line
-    sed -ri 's/\{\{--BOTPRESS_NAME--\}\}/'$BOTPRESS_NAME'/' $line
+    sed -ri 's#\{\{--BOTPRESS_URL--\}\}#'$BOTPRESS_URL'#' $line
+    sed -ri 's#\{\{--BOTPRESS_NAME--\}\}#'$BOTPRESS_NAME'#' $line
 
     # your code goes here
 done < <(grep -rl '{{--\w*--}}' $1)
