@@ -125,6 +125,13 @@ weight = -60
   weight = 20
   identifier = "prtn-ibm"
 
+[[docs]]
+
+  name = "Red Hat"
+  parent="prtn"
+  weight = 30
+  identifier = "prtn-redhat"
+
 ######################### End Featured Partners under menu #############################
 
 
