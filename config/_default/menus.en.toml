@@ -120,10 +120,17 @@ weight = -60
 ######################### Begin Featured Partners under menu #############################
 [[docs]]
 
-  name = "Name 1"
+  name = "IBM"
   parent="prtn"
   weight = 20
-  identifier = "prtn-name1"
+  identifier = "prtn-ibm"
+
+[[docs]]
+
+  name = "Red Hat"
+  parent="prtn"
+  weight = 30
+  identifier = "prtn-redhat"
 
 ######################### End Featured Partners under menu #############################
 

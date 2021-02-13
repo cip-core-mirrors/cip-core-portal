@@ -19,7 +19,6 @@ components:
     memoryLimit: 512Mi
     type: chePlugin
 
-
 commands: 
 
   - name: "run hugo server"
