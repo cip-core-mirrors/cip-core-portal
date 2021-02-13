@@ -15,6 +15,9 @@ components:
     mountSources: true
     type: dockerimage
 
+  - id: budparr/language-hugo-vscode/latest
+    memoryLimit: 512Mi
+    type: chePlugin
 
 commands: 
 
