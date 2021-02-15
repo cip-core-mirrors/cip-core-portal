@@ -1,5 +1,5 @@
 ---
-title: "Tool boxes"
+title: "Coder Spaces"
 date: 2019-12-09T15:16:35+01:00
 linktitle: "Overview"
 description: ""
@@ -9,8 +9,8 @@ categories: []
 tags: []
 menu:
   docs:
-    identifier: prb-tb-ovw
-    parent: "prd-tb"
+    identifier: prb-cs-ovw
+    parent: "prd-cs"
     weight: 10
 weight: 00
 slug: ""
@@ -18,5 +18,5 @@ aliases: []
 toc: false
 ---
 
-Tool box home
+CIP's ***Coder Spaces*** provides a cloud-based Integrated Development Environment (IDE), allowing developers to develop from anywhere, at any time, using any device.
 
