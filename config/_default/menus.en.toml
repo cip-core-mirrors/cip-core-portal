@@ -61,12 +61,12 @@ weight = -60
   identifier = "faq"
   url = "/faq/"
 
-[[docs]]
-  name = "Getting Started"
-  weight = 40
-  identifier = "getting-started"
-  post = "break"
-  url = "/getting-started/"
+#[[docs]]
+#  name = "Getting Started"
+#  weight = 40
+#  identifier = "getting-started"
+#  post = "break"
+#  url = "/getting-started/"
 
 [[docs]]
   name = "Products"
@@ -82,11 +82,17 @@ weight = -60
   weight = 20
   identifier = "prd-ab"
 
+#[[docs]]
+#  name = "Cheat Sheets"
+#  parent="prd-ab"
+#  weight = 20
+#  identifier = "prd-ab-cheat"
+
 [[docs]]
-  name = "Tool boxes"
+  name = "Coder Spaces"
   parent="prd"
   weight = 30
-  identifier = "prd-tb"
+  identifier = "prd-cs"
   ######################### End product under menu #############################
 
 [[docs]]
@@ -135,12 +141,12 @@ weight = -60
 ######################### End Featured Partners under menu #############################
 
 
-[[docs]]
-  name = "News"
-  weight = 90
-  post = "break"
-  identifier = "news"
-  url = "/news/"
+#[[docs]]
+#  name = "News"
+#  weight = 90
+#  post = "break"
+#  identifier = "news"
+#  url = "/news/"
 
 [[docs]]
   name = "Contribute"
