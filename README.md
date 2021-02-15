@@ -3,6 +3,7 @@ Cloud Innovation Platform Portal - Core version for public open source community
 
 [Edit in CIP Dev Workspace](https://codeready-cip-crw-common.apps.c1.ocp.dev.sgcip.com/factory?url=https://github.com/cip-core-mirrors/cip-core-portal/tree/demo-tmp)
 
+
 # Building the website on Openshift
 
 ## Build go hugo s2i image
