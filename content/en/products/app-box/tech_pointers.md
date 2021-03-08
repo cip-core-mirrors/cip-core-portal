@@ -2,7 +2,7 @@
 title: "Technical pointers"
 date: 2021-22-09T15:00:19+01:00
 linktitle: "Technical pointers"
-description: "Various pointers to ***relevant web resources*** related to technologies used in the **CIP *App Boxes***."
+description: "Various pointers to ***relevant web resources*** related to technologies used in the **CIP *App Box***."
 publishdate: 2021-22-09T15:00:19+01:00
 lastmod: 2021-22-09T15:00:19+01:00
 categories: []

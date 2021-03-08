@@ -77,7 +77,7 @@ weight = -60
 
 ######################### Product under menu #############################
 [[docs]]
-  name = "App boxes"
+  name = "App box"
   parent="prd"
   weight = 20
   identifier = "prd-ab"
@@ -89,10 +89,10 @@ weight = -60
 #  identifier = "prd-ab-cheat"
 
 [[docs]]
-  name = "Coder Spaces"
+  name = "Dev box"
   parent="prd"
   weight = 30
-  identifier = "prd-cs"
+  identifier = "prd-db"
   ######################### End product under menu #############################
 
 [[docs]]

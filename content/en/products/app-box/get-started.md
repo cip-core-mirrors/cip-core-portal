@@ -2,7 +2,7 @@
 title: "Get started"
 date: 2019-12-09T15:00:19+01:00
 linktitle: "Get started"
-description: "Everything you need to get started with **CIP *App Boxes***."
+description: "Everything you need to get started with **CIP *App Box***."
 publishdate: 2019-12-09T15:00:19+01:00
 lastmod: 2019-12-09T15:00:19+01:00
 categories: []

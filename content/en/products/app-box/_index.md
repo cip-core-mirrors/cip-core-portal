@@ -1,5 +1,5 @@
 ---
-title: "App Boxes"
+title: "App Box"
 date: 2019-12-09T15:00:19+01:00
 linktitle: "Overview"
 description: "Topology-based application platform as a service. Focus on your code, not on infrastructure components!"
@@ -18,4 +18,4 @@ aliases: []
 toc: true
 ---
 
-Thanks to ***App Boxes*** topology-based application as a service, focus on writing code, not on underlying infrastructure components.
+Thanks to ***App Box*** topology-based application as a service, focus on writing code, not on underlying infrastructure components.

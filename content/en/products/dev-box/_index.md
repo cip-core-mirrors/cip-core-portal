@@ -1,5 +1,5 @@
 ---
-title: "Coder Spaces"
+title: "Dev Box"
 date: 2019-12-09T15:16:35+01:00
 linktitle: "Overview"
 description: ""
@@ -9,8 +9,8 @@ categories: []
 tags: []
 menu:
   docs:
-    identifier: prb-cs-ovw
-    parent: "prd-cs"
+    identifier: prb-db-ovw
+    parent: "prd-db"
     weight: 10
 weight: 00
 slug: ""
@@ -18,5 +18,5 @@ aliases: []
 toc: false
 ---
 
-CIP's ***Coder Spaces*** provides a cloud-based Integrated Development Environment (IDE), allowing developers to develop from anywhere, at any time, using any device.
+CIP's ***Dev Box*** provides a cloud-based Integrated Development Environment (IDE), allowing developers to develop from anywhere, at any time, using any device.
 
