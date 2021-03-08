@@ -1,7 +1,7 @@
 ---
 title: "FAQ - Core"
 linktitle: "FAQ - Core"
-description: "Find anwsers to ***technical questions*** related to the technologies used in the **CIP *Coder Spaces***."
+description: "Find anwsers to ***technical questions*** related to the technologies used in the **CIP *Dev Box***."
 godocref: ""
 publishdate: ""
 lastmod: ""
