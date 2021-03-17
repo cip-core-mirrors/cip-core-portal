@@ -114,6 +114,12 @@ weight = -60
   parent="so"
   weight = 30
   identifier = "so-da"
+
+[[docs]]
+  name = "Developper Quick Start"
+  parent="so"
+  weight = 40
+  identifier = "so-dqs"
 ######################### End Solution under menu #############################
 
 [[docs]]
