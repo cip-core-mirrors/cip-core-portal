@@ -1,5 +1,5 @@
 ---
-title: "White App"
+title: "Developer Quickstarts"
 linktitle: "Overview"
 description: ""
 godocref: ""
@@ -18,4 +18,4 @@ aliases: []
 toc: false
 ---
 
-We provide multiple white apps in diferent languages to quicly start a project on CIP with CodeReadyWorkspace
+We provide multiple white apps in different languages to help you get started quickly CIP's Dev Box.
