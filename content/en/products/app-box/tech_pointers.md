@@ -22,4 +22,4 @@ toc: true
 
 | Categories | Description |
 | ---------- | ----------- |
-| Openshift CLI cheatsheet| Openshift CLI is based on Kubernetes CLI most if not all kubectl commands can be executed by the 'oc' cli. <br> This [kubectl cheatsheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/) is a must to learn how to use the 'oc' cli tools efficiently. |
+| Openshift CLI cheatsheet| Openshift CLI is based on Kubernetes CLI most if not all kubectl commands can be executed by the 'oc' cli. <br> This {{< link href="https://kubernetes.io/docs/reference/kubectl/cheatsheet/" blank="true">}}kubectl cheatsheet{{< /link >}} is a must to learn how to use the 'oc' cli tools efficiently. |

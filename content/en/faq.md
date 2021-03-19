@@ -13,6 +13,6 @@ toc: false
 #layout: about
 ---
 
-Can't find your answer? Don't hesitate to [create a specific issue](https://github.com/cip-core-mirrors/cip-core-portal/issues) and will do our best to respond in a timely manner!
+Can't find your answer? Don't hesitate to {{< link href="https://github.com/cip-core-mirrors/cip-core-portal/issues" blank="true">}}create a specific issue{{< /link >}} and will do our best to respond in a timely manner!
 
 To be documented

@@ -15,7 +15,7 @@ toc: false
 
 #### Ownership and confidentiality level
 
-This website and related products and services is provided by [Société Générale](https://github.com/societe-generale) and is maintained by the [Cloud Innovation Platform Professional Services](https://github.com/orgs/societe-generale/teams/cip-ps/) team.
+This website and related products and services is provided by {{< link href="https://github.com/societe-generale" blank="true">}}Société Générale{{< /link >}} and is maintained by the {{< link href="https://github.com/orgs/societe-generale/teams/cip-ps/" blank="true">}}Cloud Innovation Platform Professional Services{{< /link >}} team.
 
 It is classified as confidentiality level C0, meaning public data.
 
@@ -38,22 +38,22 @@ Everyone! You can help us by **improving documentation**, **describe the new fea
 
 #### Where is the source code?
 
-The source code is located in various [github.com](https://github.com) repositories listed below.
+The source code is located in various {{< link href="https://github.com" blank="true">}}github.com{{< /link >}} repositories listed below.
 
-- Umbrella project [https://github.com/societe-generale/cloud-innovation-platform](https://github.com/societe-generale/cloud-innovation-platform)
-- Website source code [https://github.com/cip-core-mirrors/cip-core-portal](https://github.com/cip-core-mirrors/cip-core-portal)
-- Website theme [https://github.com/cip-core-mirrors/cip-core-portal-theme](https://github.com/cip-core-mirrors/cip-core-portal-theme)
+- Umbrella project {{< link href="https://github.com/societe-generale/cloud-innovation-platform" blank="true">}}https://github.com/societe-generale/cloud-innovation-platform{{< /link >}}
+- Website source code {{< link href="https://github.com/cip-core-mirrors/cip-core-portal" blank="true">}}https://github.com/cip-core-mirrors/cip-core-portal{{< /link >}}
+- Website theme {{< link href="https://github.com/cip-core-mirrors/cip-core-portal-theme" blank="true">}}https://github.com/cip-core-mirrors/cip-core-portal-theme{{< /link >}}
 
 
 
 #### How is it built?
 
-We created a **cloud-native app** leveraging **gitops-based** management process on top of the  [Cloud Platform services](#).
+We created a **cloud-native app** leveraging **gitops-based** management process on top of the  {{< link href="#" blank="true">}}Cloud Platform services{{< /link >}}.
 
 <!-- Add stackalitics like stats -->
 
-- It is originally written in [Markdown](https://en.wikipedia.org/wiki/Markdown), which is a technical 'markup' language, enabling to manipulate it and render it under various forms.
-- Its content is stored and versioned in the [https://github.com/cip-core-mirrors/cip-core-portal](https://github.com/cip-core-mirrors/cip-core-portal) [git](https://git-scm.com/) repository hosted on [GitHub](https://github.com).
+- It is originally written in {{< link href="https://en.wikipedia.org/wiki/Markdown" blank="true">}}Markdown{{< /link >}}, which is a technical 'markup' language, enabling to manipulate it and render it under various forms.
+- Its content is stored and versioned in the {{< link href="https://github.com/cip-core-mirrors/cip-core-portal" blank="true">}}https://github.com/cip-core-mirrors/cip-core-portal{{< /link >}} {{< link href="https://git-scm.com/" blank="true">}}git{{< /link >}} repository hosted on {{< link href="https://github.com" blank="true">}}GitHub{{< /link >}}.
 - It is built using a *continuous delivery* production flow, as the Cloud Innovation Platform Professional Team members process contributions submitted through pull requests. 
-- Once a contribution is validated, the GitHub platform triggers automatically (through a mechanism called *webhooks*) a **serverless** function that will generate a *draft* website using [Hugo](https://gohugo.io/), one of the most popular open-source static site generators.
+- Once a contribution is validated, the GitHub platform triggers automatically (through a mechanism called *webhooks*) a **serverless** function that will generate a *draft* website using {{< link href="https://gohugo.io/" blank="true">}}Hugo{{< /link >}}, one of the most popular open-source static site generators.
 

@@ -13,6 +13,6 @@ toc: false
 layout: other
 ---
 
-The best way to contact us is by creating issues in our [public GitHub.com repository](https://github.com/societe-generale/cloud-innovation-platform).
+The best way to contact us is by creating issues in our {{< link href="https://github.com/societe-generale/cloud-innovation-platform" blank="true">}}public GitHub.com repository{{< /link >}}.
 
 We plan to use other communication channels soon such as chatrooms but those tools are currently inaccessible from our corporate workstations.

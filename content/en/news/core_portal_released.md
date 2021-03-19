@@ -15,7 +15,7 @@ layout: other
 
 #### What is it?
 
-Today we're opening the source code of the web portal used to help users to find relevant information about products and services available on the [Cloud Innovation Platform](#).
+Today we're opening the source code of the web portal used to help users to find relevant information about products and services available on the {{< link href="#" blank="true">}}Cloud Innovation Platform{{< /link >}}.
 
 
 
@@ -39,4 +39,4 @@ So we chose to concentrate all non-corporate specific content in this "*core por
 
 #### How to contribute?
 
-Find all the details in the [contributing](/contribute/) guide.
+Find all the details in the {{< link href="/contribute/" blank="true">}}contributing{{< /link >}} guide.

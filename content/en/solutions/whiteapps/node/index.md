@@ -19,11 +19,11 @@ toc: true
 
 
 This base app allow you to quickly create an API in NodeJs with Typescript, ExpressJs to manage routing and TypeOrm to manage your database.
-App source code is available at [nodejs-api-template](https://github.com/cip-core-mirrors/nodejs-api-template)
+App source code is available at {{< link href="https://github.com/cip-core-mirrors/nodejs-api-template" blank="true">}}nodejs-api-template{{< /link >}}
 
 ## Quick Start
 
-The easiest way to start this template is to use CIP Dev Box. By clicking on this [link](https://codeready-cip-crw-common.apps.c1.ocp.dev.sgcip.com/f?url=https://github.com/cip-core-mirrors/nodejs-api-template) you will be redirect to CIP Dev Box. Sign on using one of CIP-IAM trusted Identity Provider. Once authenticated, Dev Box will start creating your workspace and you will be redirect into a web code editor to start developing your app.
+The easiest way to start this template is to use CIP Dev Box. By clicking on this {{< link href="https://codeready-cip-crw-common.apps.c1.ocp.dev.sgcip.com/f?url=https://github.com/cip-core-mirrors/nodejs-api-template" blank="true">}}link{{< /link >}} you will be redirect to CIP Dev Box. Sign on using one of CIP-IAM trusted Identity Provider. Once authenticated, Dev Box will start creating your workspace and you will be redirect into a web code editor to start developing your app.
 
 The file `devFile.yaml` available in the source repository defines all the infrastructure needed to run this application. Two containers will be start by Dev Box:
 
@@ -60,7 +60,7 @@ Instead we recommended you to use Redhat images like these:
 * registry.redhat.io/rhel8/postgresql-12
 * registry.redhat.io/rhel8/mariadb-103
 
-All images available in the [Red Hat Catalog](https://catalog.redhat.com/software/containers/explore) should run seamlessly.
+All images available in the {{< link href="https://catalog.redhat.com/software/containers/explore" blank="true">}}Red Hat Catalog{{< /link >}} should run seamlessly.
 
 For each image you will have to find how to define the default database, user and password and updating your devfile to use the correct environment variable.
 

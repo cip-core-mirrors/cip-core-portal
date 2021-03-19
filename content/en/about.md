@@ -22,8 +22,8 @@ toc: false
 
 This project was created by the IT Infrastructure Innovation Team of 
 xxx.
-Find out more of our open source softwares in our [GitHub.com organization](#) 
-or by consulting our [Corporate Website](#).
+Find out more of our open source softwares in our {{< link href="#" blank="true">}}GitHub.com organization{{< /link >}} 
+or by consulting our {{< link href="#" blank="true">}}Corporate Website{{< /link >}}.
 
 
 
@@ -66,4 +66,4 @@ new platform? Because we couldn't find the perfect fit for our needs! Read on!
 
 
 
-Convinced? Please help us and [contribute to this project](/en/contribute/) if you share views and thoughts!
+Convinced? Please help us and {{< link href="/en/contribute/" blank="true">}}contribute to this project{{< /link >}} if you share views and thoughts!

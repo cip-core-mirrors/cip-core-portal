@@ -37,7 +37,7 @@ To be documented
 ### User-defined projects monitoring
 
 If needed, you can create your own metrics, consult the 
-[product's documentation](https://docs.openshift.com/container-platform/4.6/monitoring/enabling-monitoring-for-user-defined-projects.html)
+{{< link href="https://docs.openshift.com/container-platform/4.6/monitoring/enabling-monitoring-for-user-defined-projects.html" blank="true">}}product's documentation{{< /link >}}
 for more information.
 
 
@@ -46,7 +46,7 @@ for more information.
 
 #### Importing images in your project
 
-This example shows how to import NodeJS 10 image from [Red Hat's Docker Registry](https://access.redhat.com/containers/).
+This example shows how to import NodeJS 10 image from {{< link href="https://access.redhat.com/containers/" blank="true">}}Red Hat's Docker Registry{{< /link >}}.
 
 The following command will create a new image stream named *"nodejs-10"* into
 your current project and create a tag latest associated with the 
@@ -262,7 +262,7 @@ PROJECT_NAME="demo_prj"
 oc new-project $PROJECT_NAME
 ```
 
-#### (Optional) Import a specific Python [Source-2-Image](https://github.com/sclorg/s2i-python-container) image
+#### (Optional) Import a specific Python {{< link href="https://github.com/sclorg/s2i-python-container" blank="true">}}Source-2-Image{{< /link >}} image
 
 Python images are already preloaded on Openshift but should you need a newer 
 image or to create your own, you easily do so.
@@ -271,7 +271,7 @@ Say for example your app requires a Python 3.6 image but the latest Python
 image available from the global service catalog is Python 3.5. We'll add our
 own image in our project's local catalog!
 
-The Openshift cluster can pull any images described in [Red Hat's Registry](https://access.redhat.com/containers)
+The Openshift cluster can pull any images described in {{< link href="https://access.redhat.com/containers" blank="true">}}Red Hat's Registry{{< /link >}}
 
 ```bash
 IMG=python-36-rhel7:latest
