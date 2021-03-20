@@ -1,6 +1,7 @@
 ---
 title: "Get started"
 date: 2019-12-09T15:00:19+01:00
+draft: true
 linktitle: "Get started"
 description: "Get started with data-analysis"
 publishdate: 2019-12-09T15:00:19+01:00

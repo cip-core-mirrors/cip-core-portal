@@ -1,6 +1,7 @@
 ---
 title: "Co-Working quickstart"
 date: 2019-12-09T15:00:19+01:00
+draft: true
 linktitle: "Get started"
 description: "Get started with co-working"
 publishdate: 2019-12-09T15:00:19+01:00

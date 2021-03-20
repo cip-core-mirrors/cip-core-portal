@@ -1,6 +1,7 @@
 ---
 title: "Co-Working"
 date: 2019-12-09T15:16:35+01:00
+draft: true
 linktitle: "Overview"
 description: ""
 publishdate: 2019-12-09T15:16:35+01:00
