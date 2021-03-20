@@ -103,20 +103,20 @@ weight = -60
   url = "/solutions/"
 
 ######################### Solution under menu #############################
-[[docs]]
-  name = "Co Working"
-  parent="so"
-  weight = 20
-  identifier = "so-cw"
+#[[docs]]
+#  name = "Co Working"
+#  parent="so"
+#  weight = 20
+#  identifier = "so-cw"
+#
+#[[docs]]
+#  name = "Data Analysis"
+#  parent="so"
+#  weight = 30
+#  identifier = "so-da"
 
 [[docs]]
-  name = "Data Analysis"
-  parent="so"
-  weight = 30
-  identifier = "so-da"
-
-[[docs]]
-  name = "Developper Quick Start"
+  name = "Developer Quick Start"
   parent="so"
   weight = 40
   identifier = "so-dqs"
