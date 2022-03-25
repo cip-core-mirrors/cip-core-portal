@@ -21,10 +21,6 @@ components:
     memoryLimit: 512Mi
     mountSources: true
     type: dockerimage
-  - 
-    id: budparr/language-hugo-vscode/latest
-    memoryLimit: 512Mi
-    type: chePlugin
 metadata: 
   name: cip-portal
 projects: 
